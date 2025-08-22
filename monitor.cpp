@@ -1,9 +1,10 @@
-#include "monitor.h"
+#include "./monitor.h"
 #include <iostream>
 #include <thread>
 #include <chrono>
 #include <vector>
 #include <utility>  // for std::pair
+#include <string>   // explicit include for std::string
 
 // ------------------- Pure Functions (Testable) -------------------
 VitalStatus checkTemperature(float temperature) {
