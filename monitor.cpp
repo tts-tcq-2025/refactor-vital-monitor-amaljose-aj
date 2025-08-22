@@ -1,12 +1,9 @@
+#include "monitor.h"
 #include <iostream>
 #include <thread>
 #include <chrono>
-#include <string>
 #include <vector>
 #include <utility>  // for std::pair
-
-// Enum for vital status
-enum class VitalStatus { OK, CRITICAL };
 
 // ------------------- Pure Functions (Testable) -------------------
 VitalStatus checkTemperature(float temperature) {
